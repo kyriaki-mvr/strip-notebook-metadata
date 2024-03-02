@@ -18,6 +18,11 @@ Install `strip-notebook-metadata` using pip:
 pip install strip-notebook-metadata
 ```
 
+## Dependencies
+
+- sys
+- nbformat
+
 ## Usage
 
 To strip metadata from a Jupyter notebook, run:
