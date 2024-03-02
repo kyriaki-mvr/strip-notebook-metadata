@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: strip-notebook-metadata
+Version: 0.1.0
+Summary: A utility to strip metadata from code and markdown cells in Jupyter notebooks.
+Home-page: https://github.com/kyriaki-mvr/strip-notebook-metadata
+Author: Kyriaki Mavropoulou
+Author-email: kyriaki@quanterra.gr
+License: GPL
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# strip-notebook-metadata
+
