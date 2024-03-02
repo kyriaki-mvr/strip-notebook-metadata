@@ -1,6 +1,8 @@
 ![PyPI - Version](https://img.shields.io/pypi/v/strip-notebook-metadata?color=green)
 
 # Strip Notebook Metadata
+A package to strip metadata from code cells and markdowns without editing the output in Jupyter notebooks.
+
 A simple, effective tool for cleaning metadata from Jupyter notebooks. This package helps in reducing the size of notebooks and removing potentially sensitive information stored in metadata, making notebooks cleaner for version control and sharing.
 
 Pypi.org: https://pypi.org/project/strip-notebook-metadata/
