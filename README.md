@@ -1,6 +1,4 @@
 ![PyPI - Version](https://img.shields.io/pypi/v/strip-notebook-metadata?color=green)
-https://img.shields.io/github/license/kyriaki-mvr/strip-notebook-metadata?color=yellow
-
 This project was started in 2024 by Kyriaki Mavropoulou.
 
 # Strip Notebook Metadata
@@ -54,5 +52,5 @@ This project is licensed under the GPL License - see the LICENSE file for detail
 ## History
 0.1.0 (2024-March-02)
 
-First release on PyPI.
+First release on PyPI:
 https://pypi.org/project/strip-notebook-metadata/
