@@ -1,5 +1,4 @@
 ![PyPI - Version](https://img.shields.io/pypi/v/strip-notebook-metadata?color=green)
-This project was started in 2024 by Kyriaki Mavropoulou.
 
 # Strip Notebook Metadata
 A simple, effective tool for cleaning metadata from Jupyter notebooks. This package helps in reducing the size of notebooks and removing potentially sensitive information stored in metadata, making notebooks cleaner for version control and sharing.
@@ -50,7 +49,7 @@ This project is licensed under the GPL License - see the LICENSE file for detail
 - Kyriaki Mavropoulou (kyriaki@quanterra.gr) - Initial work
 
 ## History
-0.1.0 (2024-March-02)
+0.1.0 (02-March-2024)
 
 First release on PyPI:
 https://pypi.org/project/strip-notebook-metadata/
