@@ -1,1 +1,2 @@
-strip-notebook-metadata
+strip_notebook_metadata
+

@@ -1,3 +1,2 @@
 [console_scripts]
 strip-notebook-metadata = strip_notebook_metadata.main:strip_metadata
-

@@ -1,8 +1,8 @@
 LICENSE
 README.md
 setup.py
-strip-notebook-metadata/__init__.py
-strip-notebook-metadata/main.py
+strip_notebook_metadata/__init__.py
+strip_notebook_metadata/main.py
 strip_notebook_metadata.egg-info/PKG-INFO
 strip_notebook_metadata.egg-info/SOURCES.txt
 strip_notebook_metadata.egg-info/dependency_links.txt
