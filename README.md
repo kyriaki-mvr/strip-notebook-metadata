@@ -1,4 +1,5 @@
-
+![PyPI - Version](https://img.shields.io/pypi/v/strip-notebook-metadata?color=green)
+https://img.shields.io/github/license/kyriaki-mvr/strip-notebook-metadata?color=yellow
 This project was started in 2024 by Kyriaki Mavropoulou.
 
 # Strip Notebook Metadata
