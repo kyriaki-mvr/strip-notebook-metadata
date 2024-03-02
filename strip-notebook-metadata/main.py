@@ -12,7 +12,6 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 
-# strip_notebook_metadata/strip_notebook_metadata/main.py
 import sys
 import nbformat as nbf
 

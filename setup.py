@@ -14,7 +14,7 @@ setup(
     },
     author="Kyriaki Mavropoulou",
     author_email="kyriaki@quanterra.gr",
-    description="A utility to strip metadata from code and markdown cells in Jupyter notebooks.",
+    description="A package to strip metadata from code and markdown cells in Jupyter notebooks.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     license="GPL",
