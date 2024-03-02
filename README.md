@@ -1,4 +1,5 @@
-
+![PyPI - Version](https://img.shields.io/pypi/v/strip-notebook-metadata?color=green)
+https://img.shields.io/github/license/kyriaki-mvr/strip-notebook-metadata?color=yellow
 This project was started in 2024 by Kyriaki Mavropoulou.
 
 # Strip Notebook Metadata
@@ -17,6 +18,11 @@ Install `strip-notebook-metadata` using pip:
 ```bash
 pip install strip-notebook-metadata
 ```
+
+## Dependencies
+
+- sys
+- nbformat
 
 ## Usage
 
