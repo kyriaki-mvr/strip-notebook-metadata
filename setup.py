@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="strip-notebook-metadata",  # this is the package name with hyphens
-    version="0.1.1",
+    version="0.1.2",
     author="Kyriaki Mavropoulou",
     author_email="kyriaki@quanterra.gr",
     description="A package to strip metadata from code cells and markdowns without editing the output in Jupyter notebooks.",

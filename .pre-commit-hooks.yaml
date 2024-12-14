@@ -1,6 +1,8 @@
 -   id: strip-notebook-metadata
-    name: Strip notebook metadata
-    description: Remove metadata from jupyter notebooks
+    name: strip notebook metadata
+    description: "Remove metadata from jupyter notebooks"
     entry: strip-notebook-metadata
     language: python
+    pass_filenames: true
+    files: "\\.ipynb$"
     types: [python]
