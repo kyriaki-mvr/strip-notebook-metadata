@@ -28,8 +28,9 @@ def strip_metadata(input_file):
         nbf.write(notebook, file)
 
 if __name__ == "__main__":
-    if len(sys.argv) != 2:
-        print("Usage: python -m strip_notebook_metadata <notebook_file>")
+    if len(sys.argv) < 2:
+        print("Usage: python -m strip_notebook_metadata <notebook_file> [<notebook_file> ...]")
         sys.exit(1)
-    input_file = sys.argv[1]
-    strip_metadata(input_file)
+
+    for input_file in sys.argv[1:]:
+        strip_metadata(input_file)
