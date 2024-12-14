@@ -1,0 +1,6 @@
+repos:
+-   repo: https://github.com/kyriaki-mvr/strip-notebook-metadata.git
+    rev: v0.1.1
+    hooks:
+    -   id: strip-notebook-metadata
+    

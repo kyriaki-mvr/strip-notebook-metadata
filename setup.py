@@ -14,7 +14,7 @@ setup(
     url="https://github.com/kyriaki-mvr/strip-notebook-metadata",
     packages=find_packages(),
     install_requires=[
-        "nbformat>=5.0.0",
+        'nbformat>=5.0.0',
     ],
     entry_points={
         'console_scripts': [

@@ -1,0 +1,6 @@
+-   id: strip-notebook-metadata
+    name: Strip notebook metadata
+    description: Remove metadata from jupyter notebooks
+    entry: strip-notebook-metadata
+    language: python
+    types: [python]
