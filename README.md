@@ -36,6 +36,8 @@ strip-notebook-metadata path/to/your_notebook.ipynb
 ```
 
 Replace `path/to/your_notebook.ipynb` with the actual path to the notebook you wish to clean.
+## Pre-commit hooks
+See [pre-commit](https://github.com/pre-commit/pre-commit) for basic instructions.
 
 To add it under your pre-commit hooks, add the following under your **pre-commit-config.yaml**:
 ```
