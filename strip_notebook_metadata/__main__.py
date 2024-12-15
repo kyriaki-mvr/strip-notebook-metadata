@@ -1,4 +1,3 @@
-# __main__.py
 import sys
 from .main import strip_metadata
 

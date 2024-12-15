@@ -10,27 +10,16 @@
 #
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
-
-import sys
 import nbformat as nbf
 
 def strip_metadata(input_file):
-    """Strip metadata from Jupyter notebooks."""
-    with open(input_file, "r", encoding="utf-8") as file:
-        notebook = nbf.read(file, as_version=4)
+    """remove metadata from the given notebook file"""
+    with open(input_file, "r", encoding="utf-8") as f:
+        notebook = nbf.read(f, as_version=4)
 
     for cell in notebook['cells']:
         if cell['cell_type'] in ['code', 'markdown']:
             cell['metadata'] = {}
 
-    with open(input_file, "w", encoding="utf-8") as file:
-        nbf.write(notebook, file)
-
-if __name__ == "__main__":
-    if len(sys.argv) < 2:
-        print("Usage: python -m strip_notebook_metadata <notebook_file> [<notebook_file> ...]")
-        sys.exit(1)
-
-    for input_file in sys.argv[1:]:
-        strip_metadata(input_file)
+    with open(input_file, "w", encoding="utf-8") as f:
+        nbf.write(notebook, f)
