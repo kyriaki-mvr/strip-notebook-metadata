@@ -23,3 +23,9 @@ setup(
     },
     license="GPL"
 )
+
+entry_points={
+    "console_scripts": [
+        "strip-notebook-metadata = strip_notebook_metadata.__main__:main"
+    ]
+}
