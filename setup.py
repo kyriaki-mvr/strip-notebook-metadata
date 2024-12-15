@@ -18,14 +18,8 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'strip-notebook-metadata=strip_notebook_metadata.main:strip_metadata',
+            'strip-notebook-metadata=strip_notebook_metadata.__main__:main',
         ],
     },
     license="GPL"
 )
-
-entry_points={
-    "console_scripts": [
-        "strip-notebook-metadata = strip_notebook_metadata.__main__:main"
-    ]
-}
