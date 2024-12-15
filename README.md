@@ -36,6 +36,14 @@ strip-notebook-metadata path/to/your_notebook.ipynb
 
 Replace `path/to/your_notebook.ipynb` with the actual path to the notebook you wish to clean.
 
+To add it under your pre-commit hooks, add the following under your **pre-commit-config.yaml**:
+```
+-   repo: https://github.com/kyriaki-mvr/strip-notebook-metadata
+    rev: v0.2.0
+    hooks:
+    -   id: strip-notebook-metadata
+```
+
 ## Contributing
 
 Contributions are welcome! If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcomed.
