@@ -61,7 +61,7 @@ This project is licensed under the GPL License - see the LICENSE file for detail
 
 ## Authors
 
-- Kyriaki Mavropoulou (kyriaki@quanterra.gr) - Initial work
+- Kyriaki Mavropoulou (kyriaki@mavropoulou.info) - Initial work
 
 ## First release
 02-March-2024
